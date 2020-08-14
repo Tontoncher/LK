@@ -10659,7 +10659,7 @@ body {
     color: #555555; }
 
 .messageBox {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   width: 300px;
@@ -10689,12 +10689,14 @@ body {
   left: calc(50vw + 0px);
   z-index: 10; }
   .background .spinner {
-    color: #555555;
+    color: #1BA139;
     font-size: 5rem;
     animation-name: rotation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear; }
+  .background .hidden {
+    display: none; }
 
 @keyframes rotation {
   0% {
