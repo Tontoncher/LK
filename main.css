@@ -10221,14 +10221,10 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-@font-face {
-  font-family: 'Montserrat';
-  src: local("Montserrat"), url(/font/Montserrat-Regular.ttf) format("truetype"); }
-
 body {
   padding: 0;
   margin: 0;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: normal; }
   body a {
