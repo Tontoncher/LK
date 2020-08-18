@@ -10730,3 +10730,35 @@ a {
 button:focus {
   outline: none !important; }
 
+.reportCreator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); }
+  .reportCreator .background {
+    position: fixed;
+    top: 10vh;
+    left: 5vw;
+    width: 90vw;
+    height: 85vh;
+    background: #FFF;
+    border-radius: 1rem;
+    padding: 30px;
+    text-align: center;
+    z-index: 20; }
+  .reportCreator h5 {
+    margin: 20px 0; }
+  .reportCreator .form .input {
+    margin-bottom: 1rem; }
+    .reportCreator .form .input span {
+      margin-right: 1rem; }
+  .reportCreator .buttons .btn {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #1BA239;
+    border-radius: 0.6rem;
+    margin: 1rem; }
+  .reportCreator .buttons .btn:hover {
+    background: rgba(0, 20, 20, 0.1); }
+
