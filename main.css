@@ -10247,12 +10247,12 @@ body {
     padding: 0.5em 0;
     line-height: 1em;
     color: #FFF; }
-  .headContent .up .loginButton {
+  .headContent .up .loginButton, .headContent .up .regionButton {
     background: rgba(0, 0, 0, 0);
     border: none;
     line-height: 0.5em;
     color: #CCC; }
-    .headContent .up .loginButton span {
+    .headContent .up .loginButton span, .headContent .up .regionButton span {
       font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
       font-weight: 600;
       font-size: 1.6em; }
@@ -10739,9 +10739,10 @@ button:focus {
   background: rgba(0, 0, 0, 0.5); }
   .reportCreator .background {
     position: fixed;
+    overflow: auto;
     top: 10vh;
-    left: 5vw;
-    width: 90vw;
+    left: 2vw;
+    width: 96vw;
     height: 85vh;
     background: #FFF;
     border-radius: 1rem;
@@ -10761,4 +10762,30 @@ button:focus {
     margin: 1rem; }
   .reportCreator .buttons .btn:hover {
     background: rgba(0, 20, 20, 0.1); }
+  .reportCreator table {
+    width: 100%; }
+    .reportCreator table thead {
+      font-size: 0.7rem;
+      background: #F5F5F5; }
+      .reportCreator table thead td {
+        height: 2em;
+        line-height: 1.2em;
+        padding: 5px 5px;
+        border: 1px solid #BEBEBE; }
+    .reportCreator table tbody td {
+      white-space: nowrap;
+      height: 2em;
+      line-height: 1.1em;
+      border-bottom: 1px solid #BEBEBE;
+      border-top: 1px solid #BEBEBE;
+      border: 1px solid #BEBEBE;
+      padding: auto;
+      padding: 5px 10px; }
+    .reportCreator table tbody .light > td {
+      background: #FFF; }
+    .reportCreator table tbody .dark > td {
+      background: #F5F5F5; }
+    .reportCreator table input {
+      border: none;
+      background: inherit; }
 
