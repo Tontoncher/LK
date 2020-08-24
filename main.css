@@ -10786,6 +10786,9 @@ button:focus {
       background: #FFF; }
     .reportCreator table tbody .dark > td {
       background: #F5F5F5; }
+    .reportCreator table tbody .warning {
+      border-color: #DD5043;
+      border-width: 3px; }
     .reportCreator table input, .reportCreator table select {
       border: none;
       background: inherit;
