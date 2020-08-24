@@ -10780,12 +10780,14 @@ button:focus {
       border-top: 1px solid #BEBEBE;
       border: 1px solid #BEBEBE;
       padding: auto;
-      padding: 5px 10px; }
+      padding: 5px 10px;
+      text-align: left; }
     .reportCreator table tbody .light > td {
       background: #FFF; }
     .reportCreator table tbody .dark > td {
       background: #F5F5F5; }
-    .reportCreator table input {
+    .reportCreator table input, .reportCreator table select {
       border: none;
-      background: inherit; }
+      background: inherit;
+      width: 200px; }
 
