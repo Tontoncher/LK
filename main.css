@@ -10789,6 +10789,10 @@ button:focus {
     .reportCreator table tbody .warning {
       border-color: #DD5043;
       border-width: 3px; }
+    .reportCreator table tbody .width100 {
+      width: 100px; }
+    .reportCreator table tbody .width200 {
+      width: 200px; }
     .reportCreator table input {
       border: none;
       background: inherit;
