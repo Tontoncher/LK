@@ -10795,6 +10795,5 @@ button:focus {
       width: 50px; }
     .reportCreator table select {
       border: none;
-      background: inherit;
-      width: 200px; }
+      background: inherit; }
 
