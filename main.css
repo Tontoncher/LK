@@ -10782,6 +10782,13 @@ button:focus {
       padding: auto;
       padding: 5px 10px;
       text-align: left; }
+    .reportCreator table tbody input {
+      border: none;
+      background: inherit;
+      width: 40px; }
+    .reportCreator table tbody select {
+      border: none;
+      background: inherit; }
     .reportCreator table tbody .light > td {
       background: #FFF; }
     .reportCreator table tbody .dark > td {
@@ -10789,15 +10796,10 @@ button:focus {
     .reportCreator table tbody .warning {
       border-color: #DD5043;
       border-width: 3px; }
-    .reportCreator table tbody .width100 {
+    .reportCreator table tbody .width100, .reportCreator table tbody .width100 > select {
       width: 100px; }
-    .reportCreator table tbody .width200 {
+    .reportCreator table tbody .width150, .reportCreator table tbody .width150 > select {
+      width: 150px; }
+    .reportCreator table tbody .width200, .reportCreator table tbody .width200 > select {
       width: 200px; }
-    .reportCreator table input {
-      border: none;
-      background: inherit;
-      width: 50px; }
-    .reportCreator table select {
-      border: none;
-      background: inherit; }
 
