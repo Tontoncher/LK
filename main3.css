@@ -10245,15 +10245,21 @@ body {
     border: none;
     border-radius: 1rem;
     background: #555555;
+    color: #fff;
     padding: 0;
     font-size: 1.5rem;
     line-height: 1.5rem;
-    color: #fff;
     width: 3rem;
     height: 1.5rem; }
   .headContent .frontBackButtons button:hover {
-    background: #fff;
+    background: #ccc;
     color: #555555; }
+  .headContent .frontBackButtons .disable {
+    background: #555555;
+    color: #777; }
+  .headContent .frontBackButtons .disable:hover {
+    background: #555555;
+    color: #777; }
 
 .headContent .up {
   font-size: 10pt;
