@@ -10269,7 +10269,7 @@ body {
   min-width: 100vw;
   height: 2em;
   background: #555555;
-  padding: 0 3vw 0 7rem; }
+  padding: 0 3vw; }
   .headContent .up .region, .headContent .up .profile {
     padding: 0.5em 0;
     line-height: 1em;
@@ -10432,15 +10432,31 @@ body {
     padding: 0; }
   .bodyContent .breadcrumbs button:hover {
     color: #00BE57; }
-  .bodyContent .actions button {
-    background: rgba(0, 0, 0, 0);
-    border: none;
-    color: #0173C1;
-    font-size: 0.8em;
-    margin-bottom: 1em;
-    padding: 0; }
-  .bodyContent .actions button:hover {
-    color: #00BE57; }
+  .bodyContent .actions {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem; }
+    .bodyContent .actions button {
+      background: rgba(0, 0, 0, 0);
+      border: none;
+      color: #0173C1;
+      font-size: 0.8em;
+      margin-bottom: 1em;
+      padding: 0; }
+    .bodyContent .actions button:hover {
+      color: #00BE57; }
+    .bodyContent .actions button {
+      background: rgba(0, 0, 0, 0);
+      border: 1px solid #00BE57;
+      border-radius: 0.3rem;
+      color: #00BE57;
+      font-size: 0.8em;
+      margin: 0 1em 0.5em 0;
+      padding: 0 0.2rem;
+      white-space: nowrap; }
+    .bodyContent .actions button:hover {
+      color: #0173C1;
+      border-color: #0173C1; }
   .bodyContent .subMenu {
     display: flex;
     flex-wrap: wrap;
