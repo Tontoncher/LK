@@ -10234,6 +10234,33 @@ body {
 .app {
   height: 100%; }
 
+.headContent .frontBackButtons {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0.2rem 0.33rem 0.2rem 0.2rem;
+  background: #555555;
+  border-radius: 0 0 1rem 0; }
+  .headContent .frontBackButtons button {
+    border: none;
+    border-radius: 1rem;
+    background: #555555;
+    color: #fff;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    width: 3rem;
+    height: 1.5rem; }
+  .headContent .frontBackButtons button:hover {
+    background: #ccc;
+    color: #555555; }
+  .headContent .frontBackButtons .disable {
+    background: #555555;
+    color: #777; }
+  .headContent .frontBackButtons .disable:hover {
+    background: #555555;
+    color: #777; }
+
 .headContent .up {
   font-size: 10pt;
   display: flex;
@@ -10405,15 +10432,31 @@ body {
     padding: 0; }
   .bodyContent .breadcrumbs button:hover {
     color: #00BE57; }
-  .bodyContent .actions button {
-    background: rgba(0, 0, 0, 0);
-    border: none;
-    color: #0173C1;
-    font-size: 0.8em;
-    margin-bottom: 1em;
-    padding: 0; }
-  .bodyContent .actions button:hover {
-    color: #00BE57; }
+  .bodyContent .actions {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem; }
+    .bodyContent .actions button {
+      background: rgba(0, 0, 0, 0);
+      border: none;
+      color: #0173C1;
+      font-size: 0.8em;
+      margin-bottom: 1em;
+      padding: 0; }
+    .bodyContent .actions button:hover {
+      color: #00BE57; }
+    .bodyContent .actions button {
+      background: rgba(0, 0, 0, 0);
+      border: 1px solid #00BE57;
+      border-radius: 0.3rem;
+      color: #00BE57;
+      font-size: 0.8em;
+      margin: 0 1em 0.5em 0;
+      padding: 0 0.2rem;
+      white-space: nowrap; }
+    .bodyContent .actions button:hover {
+      color: #0173C1;
+      border-color: #0173C1; }
   .bodyContent .subMenu {
     display: flex;
     flex-wrap: wrap;
