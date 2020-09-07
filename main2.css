@@ -10416,7 +10416,7 @@ body {
   .bodyContent h1 {
     font-size: 1.5em;
     font-weight: 300;
-    margin: 40px 0 15px; }
+    margin: 10px 0 15px; }
   .bodyContent p {
     font-size: 0.7em;
     line-height: 1.2em;
@@ -10432,6 +10432,35 @@ body {
     padding: 0; }
   .bodyContent .breadcrumbs button:hover {
     color: #00BE57; }
+  .bodyContent .docActions {
+    margin-bottom: 1rem; }
+    .bodyContent .docActions button {
+      background: #00BE57;
+      border: 1px solid #00BE57;
+      border-radius: 0.3rem;
+      color: #FFF;
+      font-size: 0.8em;
+      margin: 0 1em 0.5em 0;
+      white-space: nowrap;
+      padding: 0.1rem 0.5rem; }
+    .bodyContent .docActions button:hover {
+      background: #FFF;
+      color: #00BE57;
+      border: 1px solid #00BE57; }
+  .bodyContent .tabs .tabsButtons {
+    margin-bottom: 1rem; }
+    .bodyContent .tabs .tabsButtons button {
+      background: #FFF;
+      border: 1px solid #FFF;
+      border-bottom-color: #BEBEBE;
+      padding: 0.2rem 1rem; }
+    .bodyContent .tabs .tabsButtons button:hover {
+      color: #00BE57; }
+    .bodyContent .tabs .tabsButtons .activeTab {
+      border-color: #BEBEBE;
+      border-bottom-color: #FFF; }
+    .bodyContent .tabs .tabsButtons .activeTab:hover {
+      color: #000; }
   .bodyContent .actions {
     display: flex;
     flex-wrap: wrap;
@@ -10555,52 +10584,45 @@ body {
       width: 50%; }
       .bodyContent .withLeftBlock_2 .rightBlock p {
         font-size: 1em; }
-      .bodyContent .withLeftBlock_2 .rightBlock .fileListContent {
-        display: flex;
-        flex-wrap: wrap; }
-        .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileButton2 {
-          border: none;
-          background: rgba(0, 0, 0, 0);
-          color: inherit;
-          padding: 0;
-          line-height: 24px;
-          height: 30px; }
-        .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileButton2:hover > .fileListItem2 {
-          color: #379AFF; }
-        .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileButton2:hover > .tooltip2 > .tooltipText2 {
-          visibility: visible; }
-        .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileListItem2 {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          color: #637A95;
-          border-radius: 5px;
-          width: 300px;
-          min-width: 200px;
-          font-size: 14px;
-          line-height: 14px;
-          margin: 10px 10px 0 0;
-          padding: 5px; }
-          .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileListItem2 .name2 {
-            overflow: hidden;
-            text-align: left; }
-          .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileListItem2 .extension2 {
-            text-align: right; }
-        .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .tooltip2 {
-          position: relative;
-          display: inline-block;
-          opacity: 1; }
-        .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .tooltipText2 {
-          position: absolute;
-          visibility: hidden;
-          width: 350px;
-          padding: 1px 4px;
-          top: -43px;
-          border-radius: 5px;
-          color: #379AFF;
-          background: #FFF;
-          opacity: 1;
-          box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.7); }
+      .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileButton2 {
+        border: none;
+        background: rgba(0, 0, 0, 0);
+        color: inherit;
+        padding: 0;
+        line-height: 24px;
+        height: 30px; }
+      .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileButton2:hover > .fileListItem2 {
+        color: #00BE57; }
+      .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileButton2:hover > .tooltip2 > .tooltipText2 {
+        visibility: visible; }
+      .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileListItem2 {
+        color: #0173C1;
+        border-radius: 5px;
+        min-width: 200px;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 5px;
+        padding: 5px; }
+        .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileListItem2 .name2 {
+          overflow: hidden;
+          text-align: left; }
+        .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .fileListItem2 .extension2 {
+          text-align: right; }
+      .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .tooltip2 {
+        position: relative;
+        display: inline-block;
+        opacity: 1; }
+      .bodyContent .withLeftBlock_2 .rightBlock .fileListContent .tooltipText2 {
+        position: absolute;
+        visibility: hidden;
+        width: 350px;
+        padding: 1px 4px;
+        top: -43px;
+        border-radius: 5px;
+        color: #379AFF;
+        background: #FFF;
+        opacity: 1;
+        box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.7); }
   .bodyContent .table {
     font-size: 0.7em; }
     .bodyContent .table table {
@@ -10648,6 +10670,8 @@ body {
         text-align: right; }
         .bodyContent .table table .floatFormat button {
           text-align: right; }
+      .bodyContent .table table .selected {
+        background: rgba(0, 190, 87, 0.13); }
   .bodyContent .pagesNumbers button {
     font-size: 0.8em;
     border: none;
@@ -10733,7 +10757,8 @@ body {
     animation-name: rotation;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear; }
+    animation-timing-function: linear;
+    z-index: 999; }
   .background .hidden {
     display: none; }
 
@@ -10774,22 +10799,10 @@ button:focus {
   outline: none !important; }
 
 .reportCreator {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: #bebebe; }
-  .reportCreator .background {
-    position: fixed;
+  min-height: 300px; }
+  .reportCreator .reportBackground {
     overflow: auto;
-    top: 10vh;
-    left: 2vw;
-    width: 96vw;
-    height: 85vh;
-    background: #FFF;
-    border-radius: 1rem;
-    padding: 30px;
+    position: relative;
     text-align: center;
     z-index: 20; }
   .reportCreator h5 {
@@ -10815,34 +10828,36 @@ button:focus {
         line-height: 1.2em;
         padding: 5px 5px;
         border: 1px solid #BEBEBE; }
-    .reportCreator table tbody td {
-      white-space: nowrap;
-      height: 2em;
-      line-height: 1.1em;
-      border-bottom: 1px solid #BEBEBE;
-      border-top: 1px solid #BEBEBE;
-      border: 1px solid #BEBEBE;
-      padding: auto;
-      padding: 5px 10px;
-      text-align: left; }
-    .reportCreator table tbody input {
-      border: none;
-      background: inherit;
-      width: 40px; }
-    .reportCreator table tbody select {
-      border: none;
-      background: inherit; }
-    .reportCreator table tbody .light > td {
-      background: #FFF; }
-    .reportCreator table tbody .dark > td {
-      background: #F5F5F5; }
-    .reportCreator table tbody .warning {
-      border-color: #DD5043;
-      border-width: 3px; }
-    .reportCreator table tbody .width100, .reportCreator table tbody .width100 > select {
-      width: 100px; }
-    .reportCreator table tbody .width150, .reportCreator table tbody .width150 > select {
-      width: 150px; }
-    .reportCreator table tbody .width200, .reportCreator table tbody .width200 > select {
-      width: 200px; }
+    .reportCreator table tbody {
+      font-size: 0.8rem; }
+      .reportCreator table tbody td {
+        white-space: nowrap;
+        height: 2em;
+        line-height: 1.1em;
+        border-bottom: 1px solid #BEBEBE;
+        border-top: 1px solid #BEBEBE;
+        border: 1px solid #BEBEBE;
+        padding: auto;
+        padding: 5px 10px;
+        text-align: left; }
+      .reportCreator table tbody input {
+        border: none;
+        background: inherit;
+        width: 3rem; }
+      .reportCreator table tbody select {
+        border: none;
+        background: inherit; }
+      .reportCreator table tbody .light > td {
+        background: #FFF; }
+      .reportCreator table tbody .dark > td {
+        background: #F5F5F5; }
+      .reportCreator table tbody .warning {
+        border-color: #DD5043;
+        border-width: 3px; }
+      .reportCreator table tbody .width100, .reportCreator table tbody .width100 > select {
+        width: 5rem; }
+      .reportCreator table tbody .width150, .reportCreator table tbody .width150 > select {
+        width: 7.5rem; }
+      .reportCreator table tbody .width200, .reportCreator table tbody .width200 > select {
+        width: 10rem; }
 
