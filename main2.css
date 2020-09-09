@@ -10802,7 +10802,6 @@ button:focus {
   min-height: 300px; }
   .reportCreator .reportBackground {
     overflow: auto;
-    position: relative;
     text-align: center;
     z-index: 20; }
   .reportCreator h5 {
