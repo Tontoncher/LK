@@ -10221,6 +10221,9 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+html {
+  font-size: 13pt; }
+
 body {
   padding: 0;
   margin: 0;
@@ -10530,7 +10533,7 @@ body {
       font-size: 16pt;
       border: 1px solid #C0C0C0;
       border-radius: 0.3em;
-      margin: 30px 30px 0 0;
+      margin: 15px 30px 0 0;
       padding: 1em;
       min-width: 300px;
       width: 300px;
@@ -10642,7 +10645,7 @@ body {
         border-bottom: 1px solid #BEBEBE;
         border-top: 1px solid #BEBEBE;
         padding: auto;
-        padding-right: 15px;
+        padding-right: 0;
         padding-left: 0; }
       .bodyContent .table table td:first-child {
         padding-left: 1vw; }
@@ -10652,8 +10655,16 @@ body {
         border: none;
         padding: 0;
         margin: 0; }
-      .bodyContent .table table input {
-        height: 2em; }
+      .bodyContent .table table input, .bodyContent .table table select {
+        border: 1px #CCC solid;
+        border-radius: 0.2rem; }
+      .bodyContent .table table input, .bodyContent .table table select, .bodyContent .table table span {
+        height: 1.8rem;
+        width: 100%;
+        max-width: 250px;
+        padding: 0 10px; }
+      .bodyContent .table table span, .bodyContent .table table button {
+        padding: 0 12px; }
       .bodyContent .table table .statusSketch button {
         color: #626466; }
       .bodyContent .table table .statusInProcessing button {
@@ -10800,6 +10811,20 @@ button:focus {
 
 .reportCreator {
   min-height: 300px; }
+  .reportCreator .tableTabs {
+    margin: 1rem 0; }
+    .reportCreator .tableTabs button {
+      background: rgba(0, 0, 0, 0);
+      border: 1px solid #00BE57;
+      border-radius: 0.3rem;
+      color: #00BE57;
+      font-size: 0.8em;
+      margin: 0 1em 0.5em 0;
+      padding: 0 0.2rem;
+      white-space: nowrap; }
+    .reportCreator .tableTabs button:hover, .reportCreator .tableTabs button.active {
+      color: #0173C1;
+      border-color: #0173C1; }
   .reportCreator .reportBackground {
     overflow: auto;
     text-align: center;
@@ -10827,6 +10852,9 @@ button:focus {
         line-height: 1.2em;
         padding: 5px 5px;
         border: 1px solid #BEBEBE; }
+      .reportCreator table thead td.clearTd {
+        background: #FFF;
+        border: none; }
     .reportCreator table tbody {
       font-size: 0.8rem; }
       .reportCreator table tbody td {
@@ -10836,27 +10864,66 @@ button:focus {
         border-bottom: 1px solid #BEBEBE;
         border-top: 1px solid #BEBEBE;
         border: 1px solid #BEBEBE;
-        padding: auto;
-        padding: 5px 10px;
-        text-align: left; }
+        text-align: left;
+        padding: 0px; }
       .reportCreator table tbody input {
         border: none;
         background: inherit;
-        width: 3rem; }
+        width: 100%;
+        height: 100%;
+        outline-color: #0173C1;
+        padding: 0 10px; }
       .reportCreator table tbody select {
         border: none;
-        background: inherit; }
+        background: inherit;
+        width: 100%;
+        height: 100%;
+        outline-color: #0173C1;
+        padding-left: 5px; }
+      .reportCreator table tbody span {
+        padding: 0 10px;
+        width: 100%;
+        height: 100%; }
       .reportCreator table tbody .light > td {
         background: #FFF; }
       .reportCreator table tbody .dark > td {
         background: #F5F5F5; }
-      .reportCreator table tbody .warning {
-        border-color: #DD5043;
-        border-width: 3px; }
-      .reportCreator table tbody .width100, .reportCreator table tbody .width100 > select {
+      .reportCreator table tbody td:first-child, .reportCreator table tbody td:first-child > button {
+        background: #FFF;
+        border: none;
+        color: #555555; }
+        .reportCreator table tbody td:first-child button:hover, .reportCreator table tbody td:first-child > button button:hover {
+          color: #00BE57; }
+      .reportCreator table tbody .warning select {
+        border: 1px #DD5043 solid;
+        border-radius: 4px;
+        box-shadow: 0 0 0px 1px #DD5043; }
+      .reportCreator table tbody .width100 {
         width: 5rem; }
-      .reportCreator table tbody .width150, .reportCreator table tbody .width150 > select {
+      .reportCreator table tbody .width150 {
         width: 7.5rem; }
-      .reportCreator table tbody .width200, .reportCreator table tbody .width200 > select {
+      .reportCreator table tbody .width200 {
         width: 10rem; }
+  .reportCreator .contextMenu {
+    font-size: 0.8rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem; }
+    .reportCreator .contextMenu button {
+      text-align: left;
+      border: none;
+      border-left: #C0C0C0 1px solid;
+      border-right: #C0C0C0 1px solid;
+      background: #FFF; }
+    .reportCreator .contextMenu button:first-child {
+      border-top: #C0C0C0 1px solid;
+      border-radius: 0.5rem 0.5rem 0 0; }
+    .reportCreator .contextMenu button:last-child {
+      border-bottom: #C0C0C0 1px solid;
+      border-radius: 0 0 0.5rem 0.5rem; }
+    .reportCreator .contextMenu button:hover {
+      border-color: #00BE57;
+      color: #00BE57; }
 
