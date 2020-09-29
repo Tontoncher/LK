@@ -10627,7 +10627,7 @@ body {
         opacity: 1;
         box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.7); }
   .bodyContent .table {
-    font-size: 0.7em; }
+    font-size: 0.85rem; }
     .bodyContent .table table {
       width: 100%; }
       .bodyContent .table table thead {
@@ -10929,4 +10929,227 @@ button:focus {
   .reportCreator .contextMenu button:hover {
     border-color: #00BE57;
     color: #00BE57; }
+
+.modalWindow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw; }
+  .modalWindow .content {
+    margin: auto;
+    width: 30rem;
+    max-width: 80vw;
+    background: #FFF;
+    border-radius: 0.5rem;
+    box-shadow: 0 2pt 15pt #CCC; }
+    .modalWindow .content .head {
+      display: flex;
+      justify-content: space-between;
+      background: #E6EBEC;
+      border-radius: 0.5rem 0.5rem 0 0;
+      padding-left: 1rem;
+      line-height: 2rem;
+      font-size: 1rem; }
+      .modalWindow .content .head button {
+        font-size: 1rem;
+        height: 2rem;
+        width: 2rem; }
+      .modalWindow .content .head button:hover {
+        color: #00BE57; }
+    .modalWindow .content .body {
+      text-align: center;
+      border-radius: 0 0 0.5rem 0.5rem;
+      padding: 1rem 2rem 2rem 2rem; }
+      .modalWindow .content .body p, .modalWindow .content .body button {
+        font-size: 0.8em;
+        margin: 0;
+        margin-bottom: 1rem; }
+      .modalWindow .content .body button {
+        background: rgba(0, 0, 0, 0);
+        border: 1px solid #00BE57;
+        border-radius: 0.3rem;
+        color: #00BE57;
+        font-size: 0.8em;
+        margin: 0 1em 0.5em 0;
+        padding: 0 0.2rem;
+        white-space: nowrap; }
+      .modalWindow .content .body button:hover {
+        color: #0173C1;
+        border-color: #0173C1; }
+
+.reportCreator .tableTabs {
+  margin: 1rem 0; }
+  .reportCreator .tableTabs button {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #00BE57;
+    border-radius: 0.3rem;
+    color: #00BE57;
+    font-size: 0.8em;
+    margin: 0 1em 0.5em 0;
+    padding: 0 0.2rem;
+    white-space: nowrap; }
+  .reportCreator .tableTabs button:hover, .reportCreator .tableTabs button.active {
+    color: #0173C1;
+    border-color: #0173C1; }
+
+.reportCreator .reportBackground {
+  overflow: auto;
+  text-align: center;
+  z-index: 20; }
+
+.reportCreator h5 {
+  margin: 20px 0; }
+
+.reportCreator .form .input {
+  margin-bottom: 1rem; }
+  .reportCreator .form .input span {
+    margin-right: 1rem; }
+
+.reportCreator .buttons .btn {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #1BA239;
+  border-radius: 0.6rem;
+  margin: 1rem; }
+
+.reportCreator .buttons .btn:hover {
+  background: rgba(0, 20, 20, 0.1); }
+
+.reportCreator table {
+  width: 100%; }
+  .reportCreator table thead {
+    font-size: 0.7rem;
+    background: #F5F5F5; }
+    .reportCreator table thead td {
+      height: 2em;
+      line-height: 1.2em;
+      padding: 5px 5px;
+      border: 1px solid #BEBEBE;
+      word-break: break-all; }
+    .reportCreator table thead td.clearTd {
+      background: #FFF;
+      border: none; }
+  .reportCreator table tbody {
+    font-size: 0.8rem; }
+    .reportCreator table tbody td {
+      position: relative;
+      white-space: nowrap;
+      height: 2em;
+      line-height: 1.1em;
+      border-bottom: 1px solid #BEBEBE;
+      border-top: 1px solid #BEBEBE;
+      border: 1px solid #BEBEBE;
+      text-align: left;
+      padding: 0px; }
+    .reportCreator table tbody input {
+      border: none;
+      background: inherit;
+      width: 100%;
+      height: 100%;
+      outline-color: #0173C1;
+      padding: 0 10px; }
+    .reportCreator table tbody select {
+      border: none;
+      background: inherit;
+      width: 100%;
+      height: 100%;
+      outline-color: #0173C1;
+      padding-left: 5px; }
+    .reportCreator table tbody span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      line-height: 2em;
+      padding-left: 10px; }
+    .reportCreator table tbody .light > td {
+      background: #FFF; }
+    .reportCreator table tbody .dark > td {
+      background: #F5F5F5; }
+    .reportCreator table tbody td:first-child, .reportCreator table tbody td:first-child > button {
+      background: #FFF;
+      border: none;
+      color: #555555; }
+      .reportCreator table tbody td:first-child button:hover, .reportCreator table tbody td:first-child > button button:hover {
+        color: #00BE57; }
+    .reportCreator table tbody .warning select {
+      border: 1px #DD5043 solid;
+      border-radius: 4px;
+      box-shadow: 0 0 0px 1px #DD5043; }
+
+.reportCreator .contextMenu {
+  font-size: 0.8rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem; }
+  .reportCreator .contextMenu button {
+    text-align: left;
+    border: none;
+    border-left: #C0C0C0 1px solid;
+    border-right: #C0C0C0 1px solid;
+    background: #FFF; }
+  .reportCreator .contextMenu button:first-child {
+    border-top: #C0C0C0 1px solid;
+    border-radius: 0.5rem 0.5rem 0 0; }
+  .reportCreator .contextMenu button:last-child {
+    border-bottom: #C0C0C0 1px solid;
+    border-radius: 0 0 0.5rem 0.5rem; }
+  .reportCreator .contextMenu button:hover {
+    border-color: #00BE57;
+    color: #00BE57; }
+
+.modalWindow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw; }
+  .modalWindow .content {
+    margin: auto;
+    width: 30rem;
+    max-width: 80vw;
+    background: #FFF;
+    border-radius: 0.5rem;
+    box-shadow: 0 2pt 15pt #CCC; }
+    .modalWindow .content .head {
+      display: flex;
+      justify-content: space-between;
+      background: #E6EBEC;
+      border-radius: 0.5rem 0.5rem 0 0;
+      padding-left: 1rem;
+      line-height: 2rem;
+      font-size: 1rem; }
+      .modalWindow .content .head button {
+        font-size: 1rem;
+        height: 2rem;
+        width: 2rem; }
+      .modalWindow .content .head button:hover {
+        color: #00BE57; }
+    .modalWindow .content .body {
+      text-align: center;
+      border-radius: 0 0 0.5rem 0.5rem;
+      padding: 1rem 2rem 2rem 2rem; }
+      .modalWindow .content .body p, .modalWindow .content .body button {
+        font-size: 0.8em;
+        margin: 0;
+        margin-bottom: 1rem; }
+      .modalWindow .content .body button {
+        background: rgba(0, 0, 0, 0);
+        border: 1px solid #00BE57;
+        border-radius: 0.3rem;
+        color: #00BE57;
+        font-size: 0.8em;
+        margin: 0 1em 0.5em 0;
+        padding: 0 0.2rem;
+        white-space: nowrap; }
+      .modalWindow .content .body button:hover {
+        color: #0173C1;
+        border-color: #0173C1; }
 
