@@ -10682,7 +10682,7 @@ body {
         .bodyContent .table table .floatFormat button {
           text-align: right; }
       .bodyContent .table table .selected {
-        background: rgba(0, 190, 87, 0.13); }
+        background: #E3F6EB; }
   .bodyContent .pagesNumbers button {
     font-size: 0.8em;
     border: none;
@@ -10899,7 +10899,7 @@ button:focus {
     .reportCreator table tbody .dark > td {
       background: #F5F5F5; }
     .reportCreator table tbody .selected > td {
-      background: rgba(0, 190, 87, 0.13); }
+      background: #E3F6EB; }
     .reportCreator table tbody td:first-child, .reportCreator table tbody td:first-child > button {
       background: #FFF;
       border: none;
