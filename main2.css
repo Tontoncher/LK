@@ -10633,18 +10633,17 @@ body {
       .bodyContent .table table thead {
         background: #F5F5F5; }
         .bodyContent .table table thead td {
-          height: 3em;
           line-height: 1.2em;
-          padding: auto;
+          padding: 0;
           padding-right: 15px;
-          padding-left: 0;
+          padding-left: 7px;
           border: none; }
       .bodyContent .table table tbody td {
         height: 3em;
         line-height: 1.2em;
         border-bottom: 1px solid #BEBEBE;
         border-top: 1px solid #BEBEBE;
-        padding: auto;
+        padding: 0;
         padding-right: 0;
         padding-left: 0; }
       .bodyContent .table table td:first-child {
@@ -10656,15 +10655,19 @@ body {
         padding: 0;
         margin: 0; }
       .bodyContent .table table input, .bodyContent .table table select {
-        border: 1px #CCC solid;
-        border-radius: 0.2rem; }
-      .bodyContent .table table input, .bodyContent .table table select, .bodyContent .table table span {
-        height: 1.8rem;
         width: 100%;
-        max-width: 250px;
-        padding: 0 10px; }
-      .bodyContent .table table span, .bodyContent .table table button {
-        padding: 0 12px; }
+        border: 1px #CCC solid;
+        border-radius: 0.2rem;
+        margin: 8px 0;
+        height: 1.8rem; }
+      .bodyContent .table table input, .bodyContent .table table select, .bodyContent .table table span {
+        max-width: 250px; }
+      .bodyContent .table table span {
+        display: block;
+        margin: 14px 5px; }
+      .bodyContent .table table button {
+        height: 100%;
+        padding: 12px; }
       .bodyContent .table table .statusSketch button {
         color: #626466; }
       .bodyContent .table table .statusInProcessing button {
@@ -10949,7 +10952,7 @@ button:focus {
     max-width: 80vw;
     background: #FFF;
     border-radius: 0.5rem;
-    box-shadow: 0 2pt 15pt #CCC; }
+    box-shadow: 0 7pt 14pt #CCC; }
     .modalWindow .content .head {
       display: flex;
       justify-content: space-between;
