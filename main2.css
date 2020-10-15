@@ -10849,6 +10849,9 @@ button:focus {
 .reportCreator .buttons .btn:hover {
   background: rgba(0, 20, 20, 0.1); }
 
+.reportCreator .caption {
+  text-align: center; }
+
 .reportCreator table {
   width: 100%; }
   .reportCreator table thead {
@@ -10909,6 +10912,16 @@ button:focus {
       color: #555555; }
       .reportCreator table tbody td:first-child button:hover, .reportCreator table tbody td:first-child > button button:hover {
         color: #00BE57; }
+    .reportCreator table tbody .stringFormat {
+      text-align: left; }
+      .reportCreator table tbody .stringFormat input {
+        text-align: left; }
+    .reportCreator table tbody .floatFormat {
+      text-align: right; }
+      .reportCreator table tbody .floatFormat input {
+        text-align: right; }
+      .reportCreator table tbody .floatFormat span {
+        padding-right: 10px; }
     .reportCreator table tbody .warning select {
       border: 1px #DD5043 solid;
       border-radius: 4px;
@@ -11025,6 +11038,9 @@ button:focus {
 .reportCreator .buttons .btn:hover {
   background: rgba(0, 20, 20, 0.1); }
 
+.reportCreator .caption {
+  text-align: center; }
+
 .reportCreator table {
   width: 100%; }
   .reportCreator table thead {
@@ -11085,6 +11101,16 @@ button:focus {
       color: #555555; }
       .reportCreator table tbody td:first-child button:hover, .reportCreator table tbody td:first-child > button button:hover {
         color: #00BE57; }
+    .reportCreator table tbody .stringFormat {
+      text-align: left; }
+      .reportCreator table tbody .stringFormat input {
+        text-align: left; }
+    .reportCreator table tbody .floatFormat {
+      text-align: right; }
+      .reportCreator table tbody .floatFormat input {
+        text-align: right; }
+      .reportCreator table tbody .floatFormat span {
+        padding-right: 10px; }
     .reportCreator table tbody .warning select {
       border: 1px #DD5043 solid;
       border-radius: 4px;
