@@ -10570,9 +10570,10 @@ body {
           margin-bottom: 1em; }
         .bodyContent .withLeftBlock .leftBlock .search .filter {
           font-size: 0.7em; }
-          .bodyContent .withLeftBlock .leftBlock .search .filter .filterItem input {
+          .bodyContent .withLeftBlock .leftBlock .search .filter .filterItem input, .bodyContent .withLeftBlock .leftBlock .search .filter .filterItem select {
+            height: 1.7rem;
             width: 100%;
-            margin-bottom: 1em; }
+            margin-bottom: 0.7rem; }
         .bodyContent .withLeftBlock .leftBlock .search .searchFooter button {
           padding: 0;
           margin-right: 1em; }
@@ -10636,8 +10637,38 @@ body {
           line-height: 1.2em;
           padding: 0;
           padding-right: 15px;
-          padding-left: 7px;
+          padding-left: 10px;
           border: none; }
+        .bodyContent .table table thead .tdHead {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          min-height: 2rem;
+          margin: 5px 0; }
+        .bodyContent .table table thead .name span {
+          display: contents; }
+        .bodyContent .table table thead .sortButton {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          width: 20px;
+          margin: 0;
+          padding: 0; }
+          .bodyContent .table table thead .sortButton button {
+            position: relative;
+            color: #BEBEBE;
+            padding: 0 5px;
+            height: 50%;
+            width: 20px;
+            margin: 0 0; }
+          .bodyContent .table table thead .sortButton button:first-child svg {
+            position: absolute;
+            bottom: 0; }
+          .bodyContent .table table thead .sortButton button:last-child svg {
+            position: absolute;
+            top: 0; }
+          .bodyContent .table table thead .sortButton .activeSort {
+            color: #555; }
       .bodyContent .table table tbody td {
         height: 3em;
         line-height: 1.2em;
@@ -10646,27 +10677,29 @@ body {
         padding: 0;
         padding-right: 0;
         padding-left: 0; }
+      .bodyContent .table table tbody span {
+        width: 100%;
+        max-width: 250px;
+        display: block; }
       .bodyContent .table table td:first-child {
         padding-left: 1vw; }
       .bodyContent .table table button, .bodyContent .table table span {
-        width: 100%;
         background: rgba(0, 0, 0, 0);
         border: none;
         padding: 0;
         margin: 0; }
       .bodyContent .table table input, .bodyContent .table table select {
+        max-width: 250px;
         width: 100%;
         border: 1px #CCC solid;
         border-radius: 0.2rem;
         margin: 8px 0;
         height: 1.8rem; }
-      .bodyContent .table table input, .bodyContent .table table select, .bodyContent .table table span {
-        max-width: 250px; }
       .bodyContent .table table span {
-        display: block;
         margin: 14px 5px; }
       .bodyContent .table table button {
         height: 100%;
+        width: 100%;
         padding: 12px; }
       .bodyContent .table table .statusSketch button {
         color: #626466; }
