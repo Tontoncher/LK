@@ -11189,9 +11189,20 @@ button:focus {
   position: relative; }
   .reportCreator .tdPicture div:first-child {
     position: absolute;
-    top: 0; }
-    .reportCreator .tdPicture div:first-child input {
-      width: 200px; }
+    top: 10px;
+    left: 10px; }
+    .reportCreator .tdPicture div:first-child button {
+      border-radius: 0.3rem;
+      background: #FFF;
+      color: #00BE57;
+      border: 1px solid #00BE57;
+      font-size: 0.8rem;
+      margin: 0 1rem 0.5rem 0;
+      white-space: nowrap;
+      padding: 0.1rem 0.5rem; }
+    .reportCreator .tdPicture div:first-child button:hover {
+      border: 1px solid #0173C1;
+      color: #0173C1; }
   .reportCreator .tdPicture img {
     width: 400px; }
 
