@@ -11190,7 +11190,8 @@ button:focus {
   .reportCreator .tdPicture div:first-child {
     position: absolute;
     top: 10px;
-    left: 10px; }
+    left: 10px;
+    z-index: 3; }
     .reportCreator .tdPicture div:first-child button {
       border-radius: 0.3rem;
       background: #FFF;
@@ -11203,6 +11204,11 @@ button:focus {
     .reportCreator .tdPicture div:first-child button:hover {
       border: 1px solid #0173C1;
       color: #0173C1; }
+  .reportCreator .tdPicture div:nth-child(2) {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    z-index: 2; }
   .reportCreator .tdPicture img {
     width: 400px; }
 
