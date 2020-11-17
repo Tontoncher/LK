@@ -10224,9 +10224,6 @@ a.text-dark:hover, a.text-dark:focus {
 html {
   font-size: 13pt; }
 
-.LD123 .webix_ss_header {
-  background-color: red; }
-
 body {
   padding: 0;
   margin: 0;
@@ -11037,12 +11034,6 @@ button:focus {
         color: #0173C1;
         border-color: #0173C1; }
 
-.declarationDisplay_style .webix_cell {
-  border-bottom: 1px solid #CCC; }
-
-.declarationDisplay_style .webix_column {
-  border-right: 1px solid #CCC; }
-
 .reportCreator .tableTabs {
   margin: 1rem 0; }
   .reportCreator .tableTabs button {
@@ -11153,64 +11144,10 @@ button:focus {
         text-align: right; }
       .reportCreator table tbody .floatFormat span {
         padding-right: 10px; }
-    .reportCreator table tbody .labelFormat {
-      text-align: center; }
-      .reportCreator table tbody .labelFormat input {
-        text-align: center; }
-      .reportCreator table tbody .labelFormat span {
-        padding-right: 10px; }
     .reportCreator table tbody .warning select {
       border: 1px #DD5043 solid;
       border-radius: 4px;
       box-shadow: 0 0 0px 1px #DD5043; }
-
-.reportCreator .tbody_3_4_annex tr {
-  height: 1.6rem; }
-  .reportCreator .tbody_3_4_annex tr td {
-    position: relative;
-    height: auto;
-    padding: 0 10px; }
-    .reportCreator .tbody_3_4_annex tr td span {
-      position: relative;
-      padding: 0; }
-  .reportCreator .tbody_3_4_annex tr span {
-    overflow: hidden;
-    white-space: pre-wrap;
-    line-height: 1rem; }
-  .reportCreator .tbody_3_4_annex tr input {
-    padding: 0; }
-  .reportCreator .tbody_3_4_annex tr select {
-    padding: 0; }
-
-.reportCreator .tbody_3_4_annex tr td:nth-child(0), .reportCreator .tbody_3_4_annex td.tdPicture {
-  padding: 0; }
-
-.reportCreator .tdPicture {
-  position: relative; }
-  .reportCreator .tdPicture div:first-child {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 3; }
-    .reportCreator .tdPicture div:first-child button {
-      border-radius: 0.3rem;
-      background: #FFF;
-      color: #00BE57;
-      border: 1px solid #00BE57;
-      font-size: 0.8rem;
-      margin: 0 1rem 0.5rem 0;
-      white-space: nowrap;
-      padding: 0.1rem 0.5rem; }
-    .reportCreator .tdPicture div:first-child button:hover {
-      border: 1px solid #0173C1;
-      color: #0173C1; }
-  .reportCreator .tdPicture div:nth-child(2) {
-    position: absolute;
-    top: 40px;
-    left: 0px;
-    z-index: 2; }
-  .reportCreator .tdPicture img {
-    width: 400px; }
 
 .reportCreator .contextMenu {
   font-size: 0.8rem;
