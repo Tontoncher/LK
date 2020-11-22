@@ -10224,9 +10224,6 @@ a.text-dark:hover, a.text-dark:focus {
 html {
   font-size: 13pt; }
 
-.LD123 .webix_ss_header {
-  background-color: red; }
-
 body {
   padding: 0;
   margin: 0;
@@ -10731,6 +10728,25 @@ body {
     color: #00BE57; }
   .bodyContent .pagesNumbers .active {
     color: #00BE57; }
+
+.error404 {
+  text-align: center;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .error404 p {
+    font-size: 1.5rem;
+    line-height: 2.5rem; }
+  .error404 .code {
+    font-size: 7rem;
+    line-height: 8rem;
+    color: #00BE57; }
+    .error404 .code span {
+      position: relative;
+      bottom: 0.5rem;
+      font-size: 5.4rem;
+      margin: 0 0.4rem; }
 
 @media screen and (min-width: 1200px) {
   .subMenuItem {
