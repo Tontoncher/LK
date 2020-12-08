@@ -10864,6 +10864,307 @@ a {
 button:focus {
   outline: none !important; }
 
+.declarationDisplay_style .webix_cell {
+  border-bottom: 1px solid #CCC; }
+
+.declarationDisplay_style .webix_column {
+  border-right: 1px solid #CCC; }
+
+.reportCreator .tableTabs {
+  margin: 1rem 0; }
+  .reportCreator .tableTabs button {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #00BE57;
+    border-radius: 0.3rem;
+    color: #00BE57;
+    font-size: 0.8em;
+    margin: 0 1em 0.5em 0;
+    padding: 0 0.2rem;
+    white-space: nowrap; }
+  .reportCreator .tableTabs button:hover, .reportCreator .tableTabs button.active {
+    color: #0173C1;
+    border-color: #0173C1; }
+
+.reportCreator .reportBackground {
+  overflow: auto;
+  text-align: center;
+  z-index: 20; }
+
+.reportCreator h5 {
+  margin: 20px 0; }
+
+.reportCreator .form .input {
+  margin-bottom: 1rem; }
+  .reportCreator .form .input span {
+    margin-right: 1rem; }
+
+.reportCreator .buttons .btn {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #1BA239;
+  border-radius: 0.6rem;
+  margin: 1rem; }
+
+.reportCreator .buttons .btn:hover {
+  background: rgba(0, 20, 20, 0.1); }
+
+.reportCreator .caption {
+  text-align: center; }
+
+.reportCreator table {
+  width: 100%; }
+  .reportCreator table thead {
+    font-size: 0.7rem;
+    background: #F5F5F5; }
+    .reportCreator table thead td {
+      height: 2em;
+      line-height: 1.2em;
+      padding: 5px 5px;
+      border: 1px solid #BEBEBE;
+      word-break: break-all; }
+    .reportCreator table thead td:first-child > button {
+      font-size: 0.8rem;
+      background: #FFF;
+      border: none;
+      color: #555555; }
+      .reportCreator table thead td:first-child > button button:hover {
+        color: #00BE57; }
+    .reportCreator table thead td.clearTd {
+      background: #FFF;
+      border: none; }
+  .reportCreator table tbody {
+    font-size: 0.8rem; }
+    .reportCreator table tbody td {
+      position: relative;
+      white-space: nowrap;
+      height: 2em;
+      line-height: 1.1em;
+      border-bottom: 1px solid #BEBEBE;
+      border-top: 1px solid #BEBEBE;
+      border: 1px solid #BEBEBE;
+      text-align: left;
+      padding: 0px; }
+    .reportCreator table tbody input {
+      border: none;
+      background: inherit;
+      width: 100%;
+      height: 100%;
+      outline-color: #0173C1;
+      padding: 0 10px; }
+    .reportCreator table tbody select {
+      border: none;
+      background: inherit;
+      width: 100%;
+      height: 100%;
+      outline-color: #0173C1;
+      padding-left: 5px; }
+    .reportCreator table tbody span {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      line-height: 2em;
+      padding-left: 10px; }
+    .reportCreator table tbody span {
+      overflow: hidden; }
+    .reportCreator table tbody .light > td {
+      background: #FFF; }
+    .reportCreator table tbody .dark > td {
+      background: #F5F5F5; }
+    .reportCreator table tbody .selected > td {
+      background: #E3F6EB; }
+    .reportCreator table tbody td:first-child, .reportCreator table tbody td:first-child > button {
+      text-align: center;
+      background: #FFF;
+      border: none;
+      color: #555555; }
+      .reportCreator table tbody td:first-child button:hover, .reportCreator table tbody td:first-child > button button:hover {
+        color: #00BE57; }
+    .reportCreator table tbody .right {
+      text-align: right; }
+      .reportCreator table tbody .right input {
+        text-align: right; }
+      .reportCreator table tbody .right span {
+        padding-right: 10px; }
+    .reportCreator table tbody .center {
+      text-align: center; }
+      .reportCreator table tbody .center input {
+        text-align: center; }
+      .reportCreator table tbody .center span {
+        padding-right: 10px; }
+    .reportCreator table tbody .stringFormat {
+      text-align: left; }
+      .reportCreator table tbody .stringFormat input {
+        text-align: left; }
+    .reportCreator table tbody .floatFormat {
+      text-align: right; }
+      .reportCreator table tbody .floatFormat input {
+        text-align: right; }
+      .reportCreator table tbody .floatFormat span {
+        padding-right: 10px; }
+    .reportCreator table tbody .labelFormat {
+      text-align: center; }
+      .reportCreator table tbody .labelFormat input {
+        text-align: center; }
+      .reportCreator table tbody .labelFormat span {
+        padding-right: 10px; }
+    .reportCreator table tbody .warning select {
+      border: 1px #DD5043 solid;
+      border-radius: 4px;
+      box-shadow: 0 0 0px 1px #DD5043; }
+
+.reportCreator .tbody_attachment_3_4 tr:first-child td {
+  border: none;
+  border-top: 1px solid #BEBEBE;
+  border-bottom: 1px solid #BEBEBE; }
+
+.reportCreator .tbody_attachment_3_4 tr:first-child td:nth-child(1) {
+  border: none; }
+
+.reportCreator .tbody_attachment_3_4 tr:first-child td:nth-child(2) {
+  border: 1px solid #BEBEBE;
+  border-right: none; }
+
+.reportCreator .tbody_attachment_3_4 tr:first-child td:last-child {
+  border: 1px solid #BEBEBE;
+  border-left: none; }
+
+.reportCreator .tbody_attachment_3_4 tr {
+  height: 1.6rem; }
+  .reportCreator .tbody_attachment_3_4 tr td {
+    position: relative;
+    height: auto;
+    padding: 0 10px;
+    min-width: 100px; }
+    .reportCreator .tbody_attachment_3_4 tr td span {
+      position: relative;
+      padding: 0; }
+  .reportCreator .tbody_attachment_3_4 tr span {
+    overflow: hidden;
+    white-space: pre-wrap;
+    line-height: 1rem; }
+  .reportCreator .tbody_attachment_3_4 tr input {
+    padding: 0; }
+  .reportCreator .tbody_attachment_3_4 tr select {
+    padding: 0; }
+
+.reportCreator .tbody_attachment_3_4 tr td:nth-child(0), .reportCreator .tbody_attachment_3_4 td.tdPicture {
+  padding: 0; }
+
+.reportCreator .tdPicture {
+  position: relative; }
+  .reportCreator .tdPicture div:first-child {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3; }
+    .reportCreator .tdPicture div:first-child button {
+      border-radius: 0.3rem;
+      background: #FFF;
+      color: #00BE57;
+      border: 1px solid #00BE57;
+      font-size: 0.8rem;
+      margin: 0 1rem 0.5rem 0;
+      white-space: nowrap;
+      padding: 0.1rem 0.5rem; }
+    .reportCreator .tdPicture div:first-child button:hover {
+      border: 1px solid #0173C1;
+      color: #0173C1; }
+  .reportCreator .tdPicture div:nth-child(2) {
+    position: absolute;
+    position: relative;
+    top: 40px;
+    left: 0px;
+    z-index: 2; }
+  .reportCreator .tdPicture img {
+    width: 400px; }
+
+.reportCreator .contextMenu {
+  font-size: 0.8rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem; }
+  .reportCreator .contextMenu button {
+    text-align: left;
+    border: none;
+    border-left: #C0C0C0 1px solid;
+    border-right: #C0C0C0 1px solid;
+    background: #FFF; }
+  .reportCreator .contextMenu button:first-child {
+    border-top: #C0C0C0 1px solid;
+    border-radius: 0.5rem 0.5rem 0 0; }
+  .reportCreator .contextMenu button:last-child {
+    border-bottom: #C0C0C0 1px solid;
+    border-radius: 0 0 0.5rem 0.5rem; }
+  .reportCreator .contextMenu button:hover {
+    border-color: #00BE57;
+    color: #00BE57; }
+
+.modalWindow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw; }
+  .modalWindow .content {
+    margin: auto;
+    width: 30rem;
+    max-width: 80vw;
+    background: #FFF;
+    border-radius: 0.5rem;
+    box-shadow: 0 7pt 14pt #CCC; }
+    .modalWindow .content .head {
+      display: flex;
+      justify-content: space-between;
+      background: #E6EBEC;
+      border-radius: 0.5rem 0.5rem 0 0;
+      padding-left: 1rem;
+      line-height: 2rem;
+      font-size: 1rem; }
+      .modalWindow .content .head button {
+        font-size: 1rem;
+        height: 2rem;
+        width: 2rem; }
+      .modalWindow .content .head button:hover {
+        color: #00BE57; }
+    .modalWindow .content .body {
+      text-align: center;
+      border-radius: 0 0 0.5rem 0.5rem;
+      padding: 1rem 2rem 2rem 2rem; }
+      .modalWindow .content .body p, .modalWindow .content .body button {
+        font-size: 0.8em;
+        margin: 0;
+        margin-bottom: 1rem; }
+      .modalWindow .content .body button {
+        background: rgba(0, 0, 0, 0);
+        border: 1px solid #00BE57;
+        border-radius: 0.3rem;
+        color: #00BE57;
+        font-size: 0.8em;
+        margin: 0 1em 0.5em 0;
+        padding: 0 0.2rem;
+        white-space: nowrap; }
+      .modalWindow .content .body button:hover {
+        color: #0173C1;
+        border-color: #0173C1; }
+
+.stickyHead {
+  position: sticky;
+  top: 0; }
+
+.noneHead {
+  visibility: hidden;
+  height: 0; }
+  .noneHead tr {
+    height: 0; }
+    .noneHead tr td {
+      height: 0; }
+
 .reportCreator .tableTabs {
   margin: 1rem 0; }
   .reportCreator .tableTabs button {
@@ -11110,6 +11411,13 @@ button:focus {
       padding: 5px 5px;
       border: 1px solid #BEBEBE;
       word-break: break-all; }
+    .reportCreator table thead td:first-child > button {
+      font-size: 0.8rem;
+      background: #FFF;
+      border: none;
+      color: #555555; }
+      .reportCreator table thead td:first-child > button button:hover {
+        color: #00BE57; }
     .reportCreator table thead td.clearTd {
       background: #FFF;
       border: none; }
@@ -11147,6 +11455,8 @@ button:focus {
       left: 0;
       line-height: 2em;
       padding-left: 10px; }
+    .reportCreator table tbody span {
+      overflow: hidden; }
     .reportCreator table tbody .light > td {
       background: #FFF; }
     .reportCreator table tbody .dark > td {
@@ -11154,6 +11464,7 @@ button:focus {
     .reportCreator table tbody .selected > td {
       background: #E3F6EB; }
     .reportCreator table tbody td:first-child, .reportCreator table tbody td:first-child > button {
+      text-align: center;
       background: #FFF;
       border: none;
       color: #555555; }
@@ -11180,41 +11491,41 @@ button:focus {
       border-radius: 4px;
       box-shadow: 0 0 0px 1px #DD5043; }
 
-.reportCreator .tbody_3_4_annex tr:first-child td {
+.reportCreator .tbody_attachment_3_4 tr:first-child td {
   border: none;
   border-top: 1px solid #BEBEBE;
   border-bottom: 1px solid #BEBEBE; }
 
-.reportCreator .tbody_3_4_annex tr:first-child td:nth-child(1) {
+.reportCreator .tbody_attachment_3_4 tr:first-child td:nth-child(1) {
   border: none; }
 
-.reportCreator .tbody_3_4_annex tr:first-child td:nth-child(2) {
+.reportCreator .tbody_attachment_3_4 tr:first-child td:nth-child(2) {
   border: 1px solid #BEBEBE;
   border-right: none; }
 
-.reportCreator .tbody_3_4_annex tr:first-child td:last-child {
+.reportCreator .tbody_attachment_3_4 tr:first-child td:last-child {
   border: 1px solid #BEBEBE;
   border-left: none; }
 
-.reportCreator .tbody_3_4_annex tr {
+.reportCreator .tbody_attachment_3_4 tr {
   height: 1.6rem; }
-  .reportCreator .tbody_3_4_annex tr td {
+  .reportCreator .tbody_attachment_3_4 tr td {
     position: relative;
     height: auto;
     padding: 0 10px; }
-    .reportCreator .tbody_3_4_annex tr td span {
+    .reportCreator .tbody_attachment_3_4 tr td span {
       position: relative;
       padding: 0; }
-  .reportCreator .tbody_3_4_annex tr span {
+  .reportCreator .tbody_attachment_3_4 tr span {
     overflow: hidden;
     white-space: pre-wrap;
     line-height: 1rem; }
-  .reportCreator .tbody_3_4_annex tr input {
+  .reportCreator .tbody_attachment_3_4 tr input {
     padding: 0; }
-  .reportCreator .tbody_3_4_annex tr select {
+  .reportCreator .tbody_attachment_3_4 tr select {
     padding: 0; }
 
-.reportCreator .tbody_3_4_annex tr td:nth-child(0), .reportCreator .tbody_3_4_annex td.tdPicture {
+.reportCreator .tbody_attachment_3_4 tr td:nth-child(0), .reportCreator .tbody_attachment_3_4 td.tdPicture {
   padding: 0; }
 
 .reportCreator .tdPicture {
@@ -11317,4 +11628,16 @@ button:focus {
       .modalWindow .content .body button:hover {
         color: #0173C1;
         border-color: #0173C1; }
+
+.stickyHead {
+  position: sticky;
+  top: 0; }
+
+.noneHead {
+  visibility: hidden;
+  height: 0; }
+  .noneHead tr {
+    height: 0; }
+    .noneHead tr td {
+      height: 0; }
 
