@@ -10886,7 +10886,6 @@ button:focus {
     border-color: #0173C1; }
 
 .reportCreator .reportBackground {
-  overflow: auto;
   text-align: center;
   z-index: 20; }
 
@@ -10911,7 +10910,8 @@ button:focus {
   text-align: center; }
 
 .reportCreator table {
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
   .reportCreator table thead {
     font-size: 0.7rem;
     background: #F5F5F5; }
