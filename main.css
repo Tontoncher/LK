@@ -10845,6 +10845,23 @@ body {
   .background .hidden {
     display: none; }
 
+.background_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  height: 85%;
+  z-index: 10; }
+  .background_2 .spinner {
+    position: relative !important;
+    color: #1BA139;
+    font-size: 4rem;
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 999; }
+
 @keyframes rotation {
   0% {
     transform: rotate(0deg); }
